@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #ffff;
+    margin: 2% 8%;
+    font-family: sans-serif;
+}
+body p, span{
+    font-size: 18px;
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+
+header .nav{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .nav .icon i{
+    color: #ffff;
+}
+header .nav .icon a{
+    padding: 0% 10px;
+    text-decoration: none;
+}
+header .nav .icon i:hover{
+    background-color: red;
+}
+/* header end */
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+    margin: 5% auto;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.hero .left a:hover{
+    background-color: blue;
+}
+.hero .left a{
+    color: #ffff;
+    text-decoration-color: #4EE1A0;
+}
+.hero .left h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.hero .left p{
+    width: 36%;
+}
+.hero .left a h3{
+    font-size: 26px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero .right{
+    position: relative;
+    top: 22%;
+    /* width: 50%; */
+    height: 90vh;
+}
+.hero .right img{
+    width: 80%;
+}
+/* hero section end */
+
+.section1{
+    width: 100%;
+    height: 50vh;
+}
+.section1 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% auto;
+    gap: 20%;
+}
+.section1 .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+    margin: 3% auto;
+}
+.section1 .top h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+.section1 .bottom h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+.section1 .top .css{
+    width: 30%;
+}
+.section1 .bottom .css{
+    width: 30%;
+}
+
+/* section1 end */
+
+.project{
+    width: 100%;
+    height: 100%;
+    margin: 7% auto;
+}
+.project .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.project .top .right{
+    border-bottom: 3px solid #4EE1A0;
+}
+.project .top .right a{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration:none;
+}
+.project .line{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin: 4% 0%;
+}
+.project .image .line .card{
+    width: 50%;
+}
+.project .image .line .card img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.project .image .line .card h3{
+    padding-bottom: 15px;
+}
+/* project section ends */
+
+footer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #242424;
+    z-index: 999999;
+    /* margin: 2% -8%; */
+    position: relative;
+}
+
+footer .main{
+    margin-bottom: 5%;
+}
+footer .main .top{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 8%;
+}
+
+footer .main .top .left{
+    width: 50%;
+}
+footer .main .top .left h1{
+    font-size: 80px;
+    padding-bottom: 10%;
+}
+footer .main .top .left p{
+    width: 70%;
+    margin-bottom: 6%;
+}
+footer .main .top .right h5{
+    width: 90%;
+    padding: 50% 0;
+}
+footer .sent{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+
+}
+footer .sent a{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+footer .sent a h3{
+    /* padding: 5px; */
+    border-bottom: 4px solid #4EE1A0;
+}
+
+
+footer .nav{
+    border-top: 1px solid #FFFFFF;
+    padding-top: 50px;
+    margin-top: 10%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .nav .icon i{
+    color: #ffff;
+}
+footer .nav .icon a{
+    padding: 0% 10px;
+    text-decoration: none;
+}
+footer .nav .icon i:hover{
+    background-color: red;
+}
