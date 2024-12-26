@@ -6,8 +6,11 @@
 body{
     background-color: #000;
     color: #ffff;
-    margin: 2% 8%;
     font-family: sans-serif;
+}
+main, header{
+    margin: 3% 8%;
+    
 }
 body p, span{
     font-size: 18px;
@@ -40,11 +43,14 @@ header .nav .icon i:hover{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 80vh;
-    margin: 5% auto;
+    height: 80%;
+    margin: 7% auto;
+    padding-bottom: 5%;
     border-bottom: 1px solid #FFFFFF;
 }
-
+.hero .left{
+    width: 90%;
+}
 .hero .left a:hover{
     background-color: blue;
 }
@@ -53,22 +59,23 @@ header .nav .icon i:hover{
     text-decoration-color: #4EE1A0;
 }
 .hero .left h1{
-    font-size: 80px;
+    font-size: 6.5vw;
     font-weight: 500;
 }
 .hero .left p{
-    width: 36%;
+    width: 86%;
+    font-size: 2vw;
 }
 .hero .left a h3{
-    font-size: 26px;
+    font-size: 5vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero .right{
     position: relative;
-    top: 22%;
-    /* width: 50%; */
-    height: 90vh;
+    top: 0%;
+    width: 50%;
+    height: 100%;
 }
 .hero .right img{
     width: 80%;
@@ -77,7 +84,7 @@ header .nav .icon i:hover{
 
 .section1{
     width: 100%;
-    height: 50vh;
+    height: 50%;
 }
 .section1 .top{
     display: flex;
@@ -90,16 +97,16 @@ header .nav .icon i:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20%;
+    gap: 16%;
     margin: 3% auto;
 }
 .section1 .top h2{
-    font-size: 42px;
+    font-size: 5vw;
     font-weight: 500;
     padding: 15px 0px;
 }
 .section1 .bottom h2{
-    font-size: 42px;
+    font-size:5vw;
     font-weight: 500;
     padding: 15px 0px;
 }
@@ -136,6 +143,7 @@ header .nav .icon i:hover{
     align-items: center;
     gap: 2%;
     margin: 4% 0%;
+    padding: 2%;
 }
 .project .image .line .card{
     width: 50%;
@@ -150,19 +158,19 @@ header .nav .icon i:hover{
 /* project section ends */
 
 footer{
+    padding: 3% 8%;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-color: #242424;
     z-index: 999999;
     /* margin: 2% -8%; */
-    position: relative;
 }
 
 footer .main{
-    margin-bottom: 5%;
+    width: 100%;
 }
 footer .main .top{
     display: flex;
@@ -170,26 +178,34 @@ footer .main .top{
     /* justify-content: space-between; */
     gap: 8%;
 }
-
+footer .main .top .left {
+    /* margin-bottom: 18%; */
+}
 footer .main .top .left{
     width: 50%;
 }
-footer .main .top .left h1{
-    font-size: 80px;
-    padding-bottom: 10%;
+footer .main h1{
+    margin-bottom: -9%;
+    font-size: 9vw;
 }
 footer .main .top .left p{
     width: 70%;
-    margin-bottom: 6%;
+    /* margin-bottom: 6%; */
+}
+footer .main .top .right{
+    margin-top: 9%;
 }
 footer .main .top .right h5{
     width: 90%;
     padding: 50% 0;
 }
 footer .sent{
+    position: relative;
+}
+footer .sent a{
     position: absolute;
     right: 0%;
-    top: 50%;
+    top: 0%;
 
 }
 footer .sent a{
